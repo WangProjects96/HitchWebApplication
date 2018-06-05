@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_margin="20dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/redT">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <bottomnav.hitherejoe.com.bottomnavigationsample.librairies.RoundedImageView
+                android:id="@+id/idProfilePicPost"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="15"/>
+
+            <TextView
+                android:id="@+id/postUser"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="@string/utilisateur"
+                android:layout_weight="50"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"/>
+
+            <TextView
+                android:text="@string/la_date_du_post"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textAlignment="textEnd"
+                android:id="@+id/postDate"
+                android:layout_weight="30"
+                android:gravity="center_vertical"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/postImage"
+            android:src="@mipmap/add_btn"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:contentDescription=""/>
+
+        <TextView
+            android:id="@+id/postTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/le_titre_de_votre_post"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/postComment"
+            android:text="@string/commentaire_post"
+            android:padding="20dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+            <ImageButton
+                android:layout_height="25dp"
+                android:id="@+id/postLikeImage"
+                android:layout_width="24dp"
+                android:elevation="0dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginStart="18dp"
+                app:srcCompat="@drawable/heart_outline"
+                android:background="#00ffffff" />
+
+            <TextView
+                android:text="@string/_0_likes"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.53"
+                android:paddingTop="5dp"
+                android:id="@+id/postNumberLikes"
+                android:layout_marginLeft="5dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

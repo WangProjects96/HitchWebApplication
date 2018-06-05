@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF6464</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="mainColor">#FF6464</color>
+    <color name="red">#FF6464</color>
+    <color name="green">#6dc066</color>
+    <color name="black">#000000</color>
+    <color name="blue1">#d7f2e6</color>
+    <color name="blue2">#75c9d2</color>
+    <color name="blue3">#2d5f72</color>
+    <color name="beige">#fdfad6</color>
+    <color name="yellow">#ffff33</color>
+
+    <color name="colorAccentRegister">#2d5f72</color>
+    <color name="blue">#2d5f72</color>
+    <color name="palette1_1">#E6E2AF</color>
+    <color name="palette1_2">#A7A37E</color>
+    <color name="palette1_3">#EFECCA</color>
+    <color name="palette1_4">#046380</color>
+    <color name="palette1_5">#002F2F</color>
+    <color name="B_Inscription">#FFFFFF</color>
+
+    <color name="s1">#81cf70</color>
+    <color name="s2">#b785d8</color>
+    <color name="s3">#70accf</color>
+
+    <color name="c1">#ffffff</color>
+    <color name="c2">#f5f5f5</color>
+    <color name="c3">#ebebeb</color>
+    <color name="c4">#e0e0e0</color>
+    <color name="c5">#d6d6d6</color>
+    <color name="c6">#cccccc</color>
+    <color name="c7">#c2c2c2</color>
+    <color name="c8">#b8b8b8</color>
+    <color name="c9">#adadad</color>
+    <color name="c10">#a3a3a3</color>
+    <color name="c11">#999999</color>
+    <color name="c12">#8f8f8f</color>
+    <color name="c13">#858585</color>
+
+    <color name="redT">#8CFF6464</color>
+    <color name="grisT">#8Cebebeb</color>
+</resources>

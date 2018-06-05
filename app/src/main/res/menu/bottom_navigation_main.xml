@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_bowtie"
+        android:title="Accueil"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_search"
+        android:enabled="true"
+        android:icon="@drawable/newsfeed1"
+        android:title="Fil d'actualité"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_dressing"
+        android:enabled="true"
+        android:icon="@drawable/ic_dressing"
+        android:title="Dressing"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_user"
+        android:enabled="true"
+        android:icon="@drawable/ic_user"
+        android:title="Profil"
+        app:showAsAction="ifRoom" />
+</menu>

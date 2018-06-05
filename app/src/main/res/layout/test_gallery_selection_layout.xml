@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/lL_GalSel"
+    android:weightSum="100">
+
+
+    <Button
+        android:drawableRight="@drawable/fleche"
+        android:drawableLeft="@drawable/tshirt"
+        android:id="@+id/buttonHauts"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:layout_gravity="center"
+        android:background="@color/redT"
+        android:hapticFeedbackEnabled="true"
+        android:text="Mes Hauts"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:visibility="visible"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="20sp"/>
+
+    <Button
+        android:background="@color/white"
+        android:drawableRight="@drawable/fleche"
+        android:drawableLeft="@drawable/pantalon"
+        android:layout_gravity="center"
+        android:id="@+id/buttonBas"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:hapticFeedbackEnabled="true"
+        android:text="Mes Bas"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:visibility="visible"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="20sp"/>
+
+    <Button
+        android:drawableRight="@drawable/fleche"
+        android:drawableLeft="@drawable/chaussure"
+        android:layout_gravity="center"
+        android:id="@+id/buttonChaussures"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:background="@color/redT"
+        android:hapticFeedbackEnabled="true"
+        android:text="Mes Chaussures"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:visibility="visible"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="20sp"/>
+
+    <Button
+        android:drawableRight="@drawable/fleche"
+        android:drawableLeft="@drawable/croix"
+        android:layout_gravity="center"
+        android:id="@+id/buttonSupprimer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:background="@color/white"
+        android:hapticFeedbackEnabled="true"
+        android:text="Supprimer"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:visibility="visible"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
